@@ -1,0 +1,174 @@
+No parameter DayOfYearSet constructor, it is empty set: 
+Number of elements of sets is: 0
+This set is empty set
+
+No parameter DayOfYear constructor, it is 1 January: 
+day ->1 month->1
+
+ I will create two sets which are same with list initializer parameter constructor
+-----------SetA----------- 
+Number of elements of sets is: 3
+1. element of set: day->4 month->2
+2. element of set: day->30 month->4
+3. element of set: day->6 month->4
+
+-----------SetB----------- 
+Number of elements of sets is: 3
+1. element of set: day->4 month->2
+2. element of set: day->30 month->4
+3. element of set: day->6 month->4
+
+
+If these two set are equal, string which is in the if will printed.
+
+SetA and SetB are equal
+I will remove 2.month 4.day and  4. month 30. day from setB by using remove function
+-----------SetA----------- 
+Number of elements of sets is: 3
+1. element of set: day->4 month->2
+2. element of set: day->30 month->4
+3. element of set: day->6 month->4
+
+-----------SetB----------- 
+Number of elements of sets is: 1
+1. element of set: day->6 month->4
+
+I will add back 4. month 30. day to setB by using operator+ function
+-----------SetA----------- 
+Number of elements of sets is: 3
+1. element of set: day->4 month->2
+2. element of set: day->30 month->4
+3. element of set: day->6 month->4
+
+-----------SetB----------- 
+Number of elements of sets is: 2
+1. element of set: day->6 month->4
+2. element of set: day->30 month->4
+
+
+If these two set are equal, string which is in the if will printed.
+
+SetA and SetB are not equal
+I will remove 2.month 4.day from setA  and 4. month 6. day by using binary operator - function
+
+-----------SetA----------- 
+Number of elements of sets is: 1
+1. element of set: day->30 month->4
+
+-----------SetB----------- 
+Number of elements of sets is: 2
+1. element of set: day->6 month->4
+2. element of set: day->30 month->4
+
+I will add back 4. month 6. day to setA by using operator+ function
+
+-----------SetA----------- 
+Number of elements of sets is: 2
+1. element of set: day->30 month->4
+2. element of set: day->6 month->4
+
+-----------SetB----------- 
+Number of elements of sets is: 2
+1. element of set: day->6 month->4
+2. element of set: day->30 month->4
+
+
+If these two set are equal, string which is in the if will printed.
+
+SetA and SetB are equal
+
+ Now, I will add 1 january to SetA and 6. day 4.month to SetB which is already exist
+This element is already exist!
+
+-----------SetA----------- 
+Number of elements of sets is: 3
+1. element of set: day->30 month->4
+2. element of set: day->6 month->4
+3. element of set: day->1 month->1
+
+-----------SetB----------- 
+Number of elements of sets is: 2
+1. element of set: day->6 month->4
+2. element of set: day->30 month->4
+
+
+If these two set are equal, string which is in the if will printed.
+
+SetA and SetB are not equal
+I will print size to of sets
+Size of SetA: 3
+Size of SetB: 2
+I will add 7. day 8. month to SetB
+
+-----------SetA----------- 
+Number of elements of sets is: 3
+1. element of set: day->30 month->4
+2. element of set: day->6 month->4
+3. element of set: day->1 month->1
+
+-----------SetB----------- 
+Number of elements of sets is: 3
+1. element of set: day->6 month->4
+2. element of set: day->30 month->4
+3. element of set: day->7 month->8
+
+Now i will add SetA and SetB and it will assign union set to union_set
+
+-----------Union_Set----------- 
+Number of elements of sets is: 4
+1. element of set: day->30 month->4
+2. element of set: day->6 month->4
+3. element of set: day->1 month->1
+4. element of set: day->7 month->8
+
+Now i will add SetA and Empty_set and it will assign union set to union_set
+
+-----------Union_Set----------- 
+Number of elements of sets is: 3
+1. element of set: day->30 month->4
+2. element of set: day->6 month->4
+3. element of set: day->1 month->1
+
+
+Now i will intersect SetA and SetB and it will assign to intersection set
+
+-----------Intersection_Set----------- 
+Number of elements of sets is: 2
+1. element of set: day->30 month->4
+2. element of set: day->6 month->4
+
+
+Now i will intersect SetA and empty_set and it will assign to intersection set
+
+-----------Intersection_Set----------- 
+Number of elements of sets is: 0
+This set is empty set
+
+
+Now i will find difference set(SetA - SetB)
+
+-----------Difference_Set----------- 
+Number of elements of sets is: 1
+1. element of set: day->1 month->1
+
+
+Now i will find difference set(SetB - SetA)
+
+-----------Difference_Set----------- 
+Number of elements of sets is: 1
+1. element of set: day->7 month->8
+
+I will reach second element (1. index) of SetA and SetB by using index operator.
+day ->6 month->4
+day ->30 month->4
+I will complete setA and assign set_complement. Then i will complete set_complement. If it is equal to SetA, it is true
+
+-----------Complement_Set----------- 
+Number of elements of sets is: 3
+1. element of set: day->1 month->1
+2. element of set: day->6 month->4
+3. element of set: day->30 month->4
+
+I will control if Complement_Set is equal to SetA with == operator
+
+SetA and Complement_Set are equal
